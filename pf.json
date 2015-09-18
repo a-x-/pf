@@ -1,16 +1,33 @@
 {
-    "year" : 2015,
-    "mounth" : 9,
-    "caterogy" : "transport",
-    "tags" : [
-        "metro",
-        "troyka",
-        "metro-x60"
-    ],
-    "isRepeated" : true,
-    "repeatUntil" : Infinity,
-    "value" : 1400,
-    "repeatPeriod" : "1m",
-    "comment" : "Жаль, нет автоматизации",
-    "dayMonth" : "17.09"
+    "config": {
+        "currencyId": "rur",
+        "currencyPrint": "р.",
+        "printMul": 1000,
+    },
+    "periods": [
+        {
+            "year" : 2015,
+            "mounth" : 9,
+            
+            "categories" : {
+                "transport": [
+                    {
+                        "tags" : [
+                            "metro",
+                            "troyka",
+                            "metro-x60"
+                        ],
+                        "repeating": {
+                            "isRepeated" : true,
+                            "repeatUntil" : Infinity,
+                            "repeatPeriod": "1m"
+                        },
+                        "value" : 1400,
+                        "comment" : "Жаль, нет автоматизации",
+                        "dayMonth" : "17.09"
+                    }
+                ]
+            }
+        }
+    ]
 }
