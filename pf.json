@@ -1,0 +1,16 @@
+{
+    "year" : 2015,
+    "mounth" : 9,
+    "caterogy" : "transport",
+    "tags" : [
+        "metro",
+        "troyka",
+        "metro-x60"
+    ],
+    "isRepeated" : true,
+    "repeatUntil" : Infinity,
+    "value" : 1400,
+    "repeatPeriod" : "1m",
+    "comment" : "Жаль, нет автоматизации",
+    "dayMonth" : "17.09"
+}
